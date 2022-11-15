@@ -1,0 +1,134 @@
+body{
+    background: #eeeeee;
+}
+
+body.front{
+    background: #ffffff;
+}
+#olycashpaywithcredit{
+    /*this is to remove credit code from widget*/
+    display:none;
+}
+
+.fade.active{
+    opacity: 1;
+}
+
+.footer {
+    margin-top: 50px;
+    background: #00658d;
+    color: #ffffff;
+}
+
+input[type="radio"] {
+    margin-left: 10px;
+  }
+
+.topbar{
+    background: #00658d;
+    color: #ffffff;
+    margin-bottom: 10px;
+}
+
+.topbar #navbar{
+    
+    padding-right: 40px;
+    padding-top: 20px;
+}
+
+.topbar ul#primary-menu li {
+    display:inline;
+    padding-top: 5%;
+  }
+
+.topbar .navbar-brand{
+    color: #fff;
+}
+.topbar #primary-menu > li > a{
+    color: #ffffff;
+    display:inline;
+}
+
+.topbar #primary-menu > li > a:hover{
+    background: none;
+}
+
+.topbar
+.brand-text{
+    display: block;
+    width: 400px;
+    margin-left: 60px;
+}
+#secondary-menu{
+    display: block;
+    background: #1e88e5;
+    color: #ffffff;
+}
+
+#secondary-menu .nav{
+    margin-top: 15px;
+    width: 100%;
+    background: #1e88e5;
+    color: #ffffff;
+}
+
+#secondary-menu .nav a{
+    color: #fff;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+#secondary-menu .navbar-nav > li.active > a{
+    background-color: #eee;
+    color:#000;
+}
+#secondary-menu .navbar-nav > li > a:hover{
+    color:#000;
+}
+
+
+#main-content{
+    min-height: 600px;
+}
+.modal-header{
+    background: #00658d;
+    color: #fff;
+}
+
+#main-content .panel .panel-heading{
+    border-left: solid 3px #00658d;
+}
+
+@media only screen and (max-width: 767px){   
+    .topbar{
+        width: 100%;
+    } 
+
+    .navbar-toggle{
+        display: none;
+    }
+
+    .navbar .navbar-header{
+        width:60%;
+        display: inline-block;
+    }
+    .navbar #navbar{
+        width: 50%;
+        display: block;
+        text-align: right;
+        display: inline-block;
+        /* text-align: right; */
+        padding: 0;
+    }
+    .topbar .brand-text{
+        display: block;
+        width: 300px;
+        margin-left: 50px;
+    }
+    .topbar .brand-text h4{
+        font-size: 12px;
+    }
+    body.front{
+        width: 100%;
+    }
+}
